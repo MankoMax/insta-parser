@@ -22,17 +22,17 @@ def main():
     driver.get("https://www.instagram.com/accounts/login/")
     time.sleep(2)
   
-    loginToInsta(driver)
+    login_to_insta(driver)
   
-    downloadVideo(driver)
+    download_video(driver)
   
-    videoToWavConvert()
+    convert_video_to_wav()
   
-    asyncio.run(recognizeSong())
+    asyncio.run(recognize_song())
   
-    removeFiles()
+    remove_files()
   
-    stopApp()
+    stop_app()
 
 
 main()

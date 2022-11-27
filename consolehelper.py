@@ -5,7 +5,7 @@ import os
 
 
 
-def waitingMessage():
+def wait_message():
     animation = ["[■□□□□□□□□□]","[■■□□□□□□□□]", "[■■■□□□□□□□]", "[■■■■□□□□□□]", "[■■■■■□□□□□]", "[■■■■■■□□□□]", "[■■■■■■■□□□]", "[■■■■■■■■□□]", "[■■■■■■■■■□]", "[■■■■■■■■■■]"]
 
     for i in range(len(animation)):
@@ -16,12 +16,12 @@ def waitingMessage():
     print("\n")
 
 
-def clearConsole():
+def clear_console():
     clear = lambda: os.system('clear')
     clear()
 
 
-def hidenPassword():
+def hide_password():
     return getpass.getpass("Enter your account password:- ")
 
 
